@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "firebase_storage_fp",
+            "request": "launch",
+            "type": "dart",
+            "args": ["-d", "edge", "--web-renderer html", "--no-sound-null-safety"]
+        },
+        {
+            "name": "firebase_storage_fp (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "firebase_storage_fp (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
